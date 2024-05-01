@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+head{
+    text-align: center;
+}
+
+header{
+    background-color: #222831;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 25px;
+}
+
+nav{
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav >a{
+    font-size: 20px;
+    color: #76ABAE;
+    text-decoration: none;
+}
+
+nav >a:hover{
+    transition: 0.5s;
+    color: #436c6e;
+    text-decoration: underline;
+}
+
+nav >a:visited{
+    color: slateblue;
+}
+
+body{
+    text-align: center;
+    background-color: #31363F;
+}
+
+body >div>p{
+    color: #EEEEEE;
+    font-size: x-large;
+}
+
+body >div>a>img{
+    border-radius: 40px;
+}
+
+body >div>a>img:hover{
+    transition: 0.2s;
+    filter: blur(1px);
+}
+
+hr{
+    size: 50px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px;
+    background-color: #76ABAE;
+}
+
+footer > div > a{
+    color: #EEEEEE;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+footer > div >a:hover{
+    transition: 0.5s;
+    color: #424242;
+    text-decoration: underline;
+}
+
+footer> div >a:visited{
+    color: slateblue;
+}
+
+footer >div >p{
+    color: #EEEEEE;
+    font-size: 25px;
+}
